@@ -8,6 +8,10 @@ export const navLinks = [
       route: "/about",
     },
     {
+      label: "Explore",
+      route: "/explore",
+    },
+    {
       label: "Blog",
       route: "/blog",
     },
