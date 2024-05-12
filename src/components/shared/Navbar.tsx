@@ -16,7 +16,7 @@ const Navbar = () => {
   const pathname = usePathname();
   const { setTheme } = useTheme()
   return (
-    <nav className='bg-blue-300 px-32 h-[80px] shadow-md sticky top-0 lg:flex hidden justify-between items-center mb-5'>
+    <nav className='bg-blue-300 px-32 h-[80px] shadow-md sticky top-0 z-50 lg:flex hidden justify-between items-center mb-5'>
       <div>
         <Link href='/'>
           <Image src={image} width={180} height={50} alt="logo" />
