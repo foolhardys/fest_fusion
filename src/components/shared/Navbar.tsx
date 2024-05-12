@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import React from 'react'
-import image from '@/components/shared/assets/logo.png'
+import image from '@/components/shared/assets/no_background.png'
 import Link from 'next/link'
 import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 import { usePathname } from 'next/navigation'
@@ -16,10 +16,10 @@ const Navbar = () => {
   const pathname = usePathname();
   const { setTheme } = useTheme()
   return (
-    <nav className='bg-blue-300 px-32 min-h-[80px] shadow-md sticky top-0 lg:flex hidden justify-between items-center mb-5'>
+    <nav className='bg-blue-300 px-32 h-[80px] shadow-md sticky top-0 lg:flex hidden justify-between items-center mb-5'>
       <div>
         <Link href='/'>
-          <Image src={image} width={50} height={40} alt="logo" />
+          <Image src={image} width={180} height={50} alt="logo" />
         </Link>
       </div>
       <div>
