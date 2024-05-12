@@ -4,6 +4,7 @@ import ContactForm from "@/components/shared/ContactForm";
 import SmallCarousel from "@/components/shared/SmallCarousel";
 import image from '@/components/shared/assets/banner-home.png'
 import MediumCarousel from "@/components/shared/MediumCarousel";
+import BlogCarousel from "@/components/shared/BlogCarousel";
 
 export default function Home() {
   return (
@@ -12,7 +13,10 @@ export default function Home() {
         <SearchBar />
         <Banner image={image} />
         <SmallCarousel />
-        <MediumCarousel/>
+        <MediumCarousel />
+        <div className="home_banner">
+          <BlogCarousel />
+        </div>
         <div className="w-full flex justify-center items-center">
           <ContactForm />
         </div>

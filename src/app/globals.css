@@ -59,4 +59,8 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .home_banner{
+    @apply bg-[url('../../assets/home_blur_bg.png')] bg-cover bg-center bg-no-repeat rounded-md 
+  }
 }
