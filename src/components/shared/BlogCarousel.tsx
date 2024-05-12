@@ -7,7 +7,7 @@ import image from '@/components/shared/assets/home-feat-blog-sample.png'
 
 const BlogCarousel = () => {
     return (
-        <div className='my-6'>
+        <div className='my-6 p-2'>
             <div className='flex justify-between my-4'>
                 <h1 className="text-3xl text-black font-bold justify-self-center self-center">Featured Blogs</h1>
                 <Link href='/'>
@@ -17,28 +17,28 @@ const BlogCarousel = () => {
             <div>
                 <Carousel>
                     <CarouselContent>
-                        <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1">
+                        <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                             <BlogCarouselCard image={image} />
                         </CarouselItem>
-                        <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1">
+                        <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                             <BlogCarouselCard image={image} />
                         </CarouselItem>
-                        <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1">
+                        <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                             <BlogCarouselCard image={image} />
                         </CarouselItem>
-                        <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1">
+                        <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                             <BlogCarouselCard image={image} />
                         </CarouselItem>
-                        <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1">
+                        <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                             <BlogCarouselCard image={image} />
                         </CarouselItem>
-                        <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1">
+                        <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                             <BlogCarouselCard image={image} />
                         </CarouselItem>
-                        <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1">
+                        <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                             <BlogCarouselCard image={image} />
                         </CarouselItem>
-                        <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1">
+                        <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                             <BlogCarouselCard image={image} />
                         </CarouselItem>
                     </CarouselContent>
