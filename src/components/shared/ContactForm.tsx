@@ -7,7 +7,7 @@ import { Label } from '../ui/label'
 
 const ContactForm = () => {
     return (
-        <article className='max-w-3xl mx-auto bg-blue-300 min-h-[280px] rounded-md flex md:flex-row flex-col-reverse gap-2 items-center justify-center my-4'>
+        <article className='max-w-3xl md:w-full w-[380px] md:mx-auto bg-blue-300 min-h-[280px] rounded-md flex md:flex-row flex-col-reverse gap-2 items-center justify-center my-4'>
             <div>
                 <Image src={image} width={450} height={450} alt="logo" />
             </div>
