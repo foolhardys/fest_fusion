@@ -1,3 +1,4 @@
+import Footer from '@/components/shared/Footer'
 import MobileNav from '@/components/shared/MobileNav'
 import Navbar from '@/components/shared/Navbar'
 import React from 'react'
@@ -8,6 +9,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <Navbar/>
       <MobileNav/>
       {children}
+      <Footer/>
     </main>
   )
 }
