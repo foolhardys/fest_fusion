@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React, { useState } from 'react'
-import image from '@/components/shared/assets/logo.png'
+import image from '@/components/shared/assets/no_branding_black.png'
 import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 import { Button } from '../ui/button'
 import { HamburgerMenuIcon, Cross1Icon, SunIcon, MoonIcon } from '@radix-ui/react-icons'
@@ -19,7 +19,7 @@ const MobileNav = () => {
     return (
         <nav className='min-h-[80px] bg-blue-300 flex lg:hidden items-center justify-between p-2 mb-5 sticky top-0 shadow-md'>
             <Link href='/'>
-                <Image src={image} alt="logo" width={40} height={40} />
+                <Image src={image} alt="logo" width={70} height={70} />
             </Link>
             <div className='flex gap-2 items-center justify-center'>
                 <div className='flex items-center justify-center p-2'>
