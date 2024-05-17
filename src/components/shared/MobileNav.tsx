@@ -17,7 +17,7 @@ const MobileNav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     return (
-        <nav className='h-[80px] bg-blue-300 flex lg:hidden items-center z-50 justify-between p-2 mb-5 sticky top-0 shadow-md'>
+        <nav className='h-[80px] bg-blue-300 flex lg:hidden items-center z-50 justify-between p-2 sticky top-0 shadow-md'>
             <Link href='/'>
                 <Image src={image} alt="logo" width={70} height={70} />
             </Link>
