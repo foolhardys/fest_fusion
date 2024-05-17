@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import image from "@/components/shared/assets/home-feat-blog-sample.png";
-import { ArrowDownIcon } from "@radix-ui/react-icons";
+import { ArrowDownIcon, BookmarkFilledIcon } from "@radix-ui/react-icons";
 
 const SingleBlog = () => {
   return (
-    <div className="bg-transparent rounded-lg overflow-hidden mb-10 p-4 w-full">
-      <Image src={image} alt="Blog Post Image" className="md:w-full w-[70%]"/>
+    <div className="bg-transparent rounded-lg overflow-hidden mb-10 p-4 w-full shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+      <Image src={image} alt="Blog Post Image" className="md:w-full w-[70%] rounded-md"/>
       <div className="p-4 md:w-full w-[70%]">
         <h2 className="text-5xl font-semibold mb-2">Blog Post Title</h2>
         <p className="mb-4">
@@ -45,7 +45,7 @@ const SingleBlog = () => {
             href="#"
             className=" hover:text-primary hover:underline mr-2 flex gap-1 items-center"
           >
-            <ArrowDownIcon />
+            <BookmarkFilledIcon />
             Read Blog
           </a>
           <span className="text-gray-400 text-sm">Published on - May 16, 2024</span>
