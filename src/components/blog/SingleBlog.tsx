@@ -8,7 +8,7 @@ const SingleBlog = () => {
     <div className="bg-transparent rounded-lg overflow-hidden mb-10 p-4 w-full">
       <Image src={image} alt="Blog Post Image" className="md:w-full w-[70%]"/>
       <div className="p-4 md:w-full w-[70%]">
-        <h2 className="text-3xl font-semibold mb-2">Blog Post Title</h2>
+        <h2 className="text-5xl font-semibold mb-2">Blog Post Title</h2>
         <p className="mb-4">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
           distinctio natus mollitia ducimus nemo quae provident assumenda
@@ -48,7 +48,7 @@ const SingleBlog = () => {
             <ArrowDownIcon />
             Read Blog
           </a>
-          <span className="text-gray-400 text-sm">May 16, 2024</span>
+          <span className="text-gray-400 text-sm">Published on - May 16, 2024</span>
         </div>
       </div>
     </div>
