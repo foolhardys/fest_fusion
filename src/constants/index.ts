@@ -1,5 +1,3 @@
-import { TwitterLogoIcon, InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
-
 export const navLinks = [
   {
     label: "Home",
@@ -20,24 +18,23 @@ export const navLinks = [
   {
     label: "Contact",
     route: "/contact",
-  }
+  },
 ];
-
 
 export const footerSocialLinks = [
   {
-    label: 'Twitter',
-    icon: 'TwitterLogoIcon',
+    label: "Twitter",
+    icon: "TwitterLogoIcon",
   },
   {
-    label: 'Instagram',
-    icon: 'InstagramLogoIcon ',
+    label: "Instagram",
+    icon: "InstagramLogoIcon ",
   },
   {
-    label: 'LinkedIn',
-    icon: 'LinkedInLogoIcon ',
-  }
-]
+    label: "LinkedIn",
+    icon: "LinkedInLogoIcon ",
+  },
+];
 
 export const footerNavLinks = [
   {
@@ -55,8 +52,8 @@ export const footerNavLinks = [
   {
     label: "Blog",
     route: "/blog",
-  }
-]
+  },
+];
 
 export const footerServices = [
   {
@@ -66,17 +63,65 @@ export const footerServices = [
   {
     label: "FAQ",
     route: "/faq",
-  }
-]
+  },
+];
 
 export const footerLegal = [
   {
     label: "Terms of Service",
     route: "/terms-of-service",
-  }
-  ,
+  },
   {
     label: "Privacy Policy",
     route: "/privacy-policy",
-  }
-]
+  },
+];
+
+export const filters = [
+  {
+    label: "All",
+  },
+  {
+    label: "Type",
+    options: [
+      {
+        label: "Educational Session",
+      },
+      {
+        label: "Workshop",
+      },
+      {
+        label: "Cultural",
+      },
+      {
+        label: "Technical",
+      },
+      {
+        label: "Exhibition",
+      },
+      {
+        label: "Recreational",
+      },
+    ],
+  },
+  {
+    label: "Rating",
+    options: [
+      {
+        label: "1+",
+      },
+      {
+        label: "2+",
+      },
+      {
+        label: "3+",
+      },
+      {
+        label: "4+",
+      },
+      {
+        label: "5+",
+      },
+    ],
+  },
+];

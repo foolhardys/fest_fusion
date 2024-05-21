@@ -7,7 +7,7 @@ const SearchBar = () => {
     return (
         <div className="flex w-full max-w-xl items-center space-x-1 p-2 mx-auto">
             <Input type="search" placeholder="Search by Event/College" className='text-gray-900' />
-            <Button variant='ghost' className='text-gray-900 rounded-sm' type="submit" size='icon'>
+            <Button variant='outline' className='rounded-sm' type="submit" size='icon'>
                 <MagnifyingGlassIcon />
             </Button>
         </div>
