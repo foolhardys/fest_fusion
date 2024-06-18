@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 
 const SingleEventCard = ({ image }: any) => {
   return (
-    <Card className="rounded-md w-[350px] min-h-50 flex items-center justify-center flex-col my-1 bg-card/50 p-4 outline-none shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+    <Card className="rounded-md w-[350px] min-h-50 flex items-center justify-center flex-col my-1 bg-card/50 p-4 outline-none shadow-[0_5px_10px_rgba(8,_112,_184,_0.7)]">
       <CardContent>
         <Image src={image} alt="logo" className="rounded-md w-full h-full" />
       </CardContent>

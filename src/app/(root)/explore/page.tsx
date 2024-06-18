@@ -15,7 +15,7 @@ const ExplorePage = () => {
           <SearchBar />
         </div>
       </div>
-      <div className="flex flex-wrap max-w-7xl gap-4 mx-auto mt-5 justify-center py-8">
+      <div className="flex flex-wrap max-w-7xl gap-4 mx-auto mt-5 py-8">
         <SingleEventCard image={image} />
         <SingleEventCard image={image} />
         <SingleEventCard image={image} />

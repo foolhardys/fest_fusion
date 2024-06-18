@@ -8,7 +8,7 @@ const SingleBlog = () => {
     <div className="bg-transparent rounded-lg overflow-hidden mb-10 p-4 w-full shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
       <Image src={image} alt="Blog Post Image" className="md:w-full w-[70%] rounded-md"/>
       <div className="p-4 md:w-full w-[70%]">
-        <h2 className="text-5xl font-semibold mb-2">Blog Post Title</h2>
+        <h2 className="text-5xl font-semibold mb-4">Blog Post Title</h2>
         <p className="mb-4">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
           distinctio natus mollitia ducimus nemo quae provident assumenda
